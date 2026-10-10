@@ -9,8 +9,8 @@ app = FastAPI()
 def ukol():
     return """<h1>Hvězda</h1>
     <form action="/hvezda">
-    <input name="symbol">
-    <input name="velikost" type="number">
+    <label>Symbol: <input name="symbol" maxlength="1" placeholder="např. *"></label><br>
+    <label>Symbol: <input name="velikost"  placeholder="např. 5"></label><br>
     <button>Nakreslit</button>
 </form>
     """
