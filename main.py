@@ -10,7 +10,7 @@ def ukol():
     return """<h1>Hvězda</h1>
     <form action="/hvezda">
     <label>Symbol: <input name="symbol" maxlength="1" placeholder="např. *"></label><br>
-    <label>Symbol: <input name="velikost"  placeholder="např. 5"></label><br>
+    <label>Velikost: <input name="velikost"  placeholder="např. 5"></label><br>
     <button>Nakreslit</button>
 </form>
     """
